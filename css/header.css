@@ -1,0 +1,178 @@
+/*mobile 375px => tablet 768px => desktop 1024px*/
+.header__item-wrapper, .header__communication, .header__bag {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__bag {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.header__bag img {
+    height: 12px;
+    width: 12px;
+    margin-right: 15px;
+}
+
+.header__bag img:hover {
+    color: #f14a58;
+}
+
+.header__log {
+    font-size: 30px;
+    margin: 30px 0 15px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header__sign-up {
+    margin-right: 55px;
+}
+
+.header__sign-up p {
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.header__search {
+    display: flex;
+    width: 81%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.header__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.header__list li {
+    display: inline;
+}
+
+.header__list a {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.header__list a:hover {
+    color: #f14a58;
+}
+
+.header__list {
+    margin: 0 0 25px;
+}
+
+.header__loupe input {
+    font-size: 12px;
+    max-width: 100px;
+    border: 0;
+    border-bottom: 2px solid #e5e5e5;
+    outline: none;
+    padding-right: 16px;
+
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #a8a8a8;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.header__loupe {
+    position: relative;
+}
+
+.header__loupe img {
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+
+.header__looking {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 1024px) {
+    .header__log--hide_desktop, .header__menu--hide_desktop {
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header__log--hide_desktop, .header__menu--hide_desktop {
+        display: none;
+    }
+
+    .header__list {
+        width: 95%;
+    }
+
+    .loupe .img {
+        height: 12px;
+        width: 12px;
+        display: block;
+        background-image: url("../img/icons/ico_loupe.png");
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .header__log--hide_mobile, .header__sign-up--hide_mobile, .header__list--hide_mobile,
+    .header__loupe--hide_mobile {
+        display: none;
+    }
+
+    .header__item-wrapper {
+        width: 80%;
+    }
+
+    .header__log {
+        font-size: 24px;
+        margin: 25px 0 16px;
+        letter-spacing: 1px;
+        color: #000000;
+        font-family: "Open Sans";
+        font-weight: 700;
+    }
+
+    .header__bag {
+        margin-right: 20px;
+    }
+
+    .header__item {
+        display: flex;
+        vertical-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__menu {
+        cursor: pointer;
+        padding: 0 20px 0 0;
+        margin: 0 auto;
+    }
+
+
+}

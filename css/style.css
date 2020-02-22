@@ -1,0 +1,41 @@
+/*mobile 375px => tablet 768px => desktop 1024px*/
+@import "header.css";
+@import "footer.css";
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+p {
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.text_style_desc {
+    margin: 0;
+    font-family: "Times New Roman";
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+}
+
+.text_style_comm {
+    margin: 0;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+}
