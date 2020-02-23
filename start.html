@@ -34,7 +34,31 @@
 
          </div>
          <div class = "header__menu header__menu--hide_desktop">
-            <img alt = "mobile menu" src = "img/icons/ico_menu%20copy.png" title = "mobile menu">
+            <div class = "header__menu-icon-wrapper">
+               <div class = "header__menu-icon"></div>
+            </div>
+
+         </div>
+         <div class = "header__menu-item header__menu--hide_desktop">
+            <ul>
+               <li><a class = "menu__item" href = "#">Women</a></li>
+               <li><a class = "menu__item" href = "#">Men</a></li>
+               <li><a class = "menu__item" href = "#">Handbags</a></li>
+               <li><a class = "menu__item" href = "#">Accessories</a></li>
+               <li><a class = "menu__item" href = "#">New Arrivals</a></li>
+               <li><a class = "menu__item" href = "#">Clearance</a></li>
+               <li><a class = "menu__item" href = "#">Store Locator</a></li>
+            </ul>
+            <div class = "header__loupe-mobile">
+               <form action = "#">
+
+                  <input id = "check-loupe-mobile" type = "checkbox">
+                  <label for = "check-loupe-mobile"><img alt = "loupe" class = "loupe" src = "img/icons/ico_loupe.png"
+                                                         title = "loupe"></label>
+                  <input id = "loupe-mobile" placeholder = "Style Name" type = "text">
+               </form>
+            </div>
+
          </div>
       </div>
 
@@ -59,7 +83,8 @@
                <form action = "#">
 
                   <input id = "check-loupe" type = "checkbox">
-                  <label for = "check-loupe"><img alt = "loupe" class = "loupe" src = "img/icons/ico_loupe.png" title = "loupe"></label>
+                  <label for = "check-loupe"><img alt = "loupe" class = "loupe" src = "img/icons/ico_loupe.png"
+                                                  title = "loupe"></label>
                   <input id = "loupe" placeholder = "Style Name" type = "text">
                </form>
 
@@ -77,8 +102,10 @@
 <footer>
    <div class = "container"></div>
 </footer>
+<script src = "js/lodash.js"></script>
 <script src = "data/catalog.js"></script>
 <script src = "data/best-offer.js"></script>
+<script src = "js/start.js"></script>
 <script src = "js/script.js"></script>
 </body>
 </html>
