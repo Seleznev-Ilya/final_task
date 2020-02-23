@@ -142,7 +142,7 @@
     position: absolute;
     left: 0;
     top: -5px;
-    content: '';
+    content:attr(data-el);
     width: 12px;
     height: 2px;
     background-color: black;
@@ -154,7 +154,7 @@
     position: absolute;
     left: 0;
     top: 5px;
-    content: '';
+    content:attr(data-el);
     width: 12px;
     height: 2px;
     background-color: black;
@@ -170,13 +170,16 @@
     transform: rotate(45deg);
     top: 0;
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+    background-color: #f14a58;
 }
 
 .header__menu-icon.menu-icon-active::after {
     transform: rotate(-45deg);
     top: 0;
     transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+    background-color: #f14a58;
 }
+
 
 
 @media (min-width: 1024px) {
@@ -298,8 +301,12 @@
         color:#f14a58;
 
     }
-
-
+    header{
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .header__item-wrapper.header__item-wrapper--border{
+        border-right: 1px solid #e5e5e5;
+    }
 
 
 }
