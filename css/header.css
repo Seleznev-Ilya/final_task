@@ -26,7 +26,7 @@
     margin: 30px 0 15px;
     letter-spacing: 1px;
     color: #000000;
-    font-family: "OpenSans-Regular";
+    font-family: "Open Sans";
     font-weight: 700;
     cursor: pointer;
 }
@@ -39,7 +39,7 @@
     font-size: 12px;
     letter-spacing: 0px;
     color: #000000;
-    font-family:"Roboto-regular";
+    font-family:"Roboto";
     font-weight: 400;
 }
 
@@ -67,7 +67,7 @@
     font-size: 13px;
     letter-spacing: 0px;
     color: #000000;
-    font-family: "OpenSans-Regular";
+    font-family: "Open Sans";
     font-weight: 700;
 }
 
@@ -78,21 +78,25 @@
 .header__list {
     margin: 0 0 25px;
 }
-
-.header__loupe input {
+#check-loupe{
+    display: none;
+}
+#loupe {
+    transition: 1s;
     font-size: 12px;
     max-width: 100px;
     border: 0;
     border-bottom: 2px solid #e5e5e5;
     outline: none;
     padding-right: 16px;
-
     font-size: 12px;
     letter-spacing: 0px;
     color: #a8a8a8;
     font-family: "Open Sans";
     font-weight: 700;
 }
+
+
 
 .header__loupe {
     position: relative;
@@ -112,6 +116,7 @@
 }
 
 
+
 @media (min-width: 1024px) {
     .header__log--hide_desktop, .header__menu--hide_desktop {
         display: none;
@@ -123,9 +128,10 @@
     .header__log--hide_desktop, .header__menu--hide_desktop {
         display: none;
     }
+    .header__search {
 
-    .header__list {
-        width: 95%;
+        width: 85%;
+
     }
 
     .loupe .img {
@@ -133,6 +139,23 @@
         width: 12px;
         display: block;
         background-image: url("../img/icons/ico_loupe.png");
+    }
+    #loupe {
+        transition: 1s;
+        font-size: 12px;
+        max-width: 0px;
+        border: 0;
+        border-bottom: 2px solid #e5e5e5;
+        outline: none;
+        padding-right: 16px;
+        font-size: 12px;
+        letter-spacing: 0px;
+        color: #a8a8a8;
+        font-family: "Open Sans";
+        font-weight: 700;
+    }
+    input#check-loupe:checked ~ #loupe{
+        max-width: 90px;
     }
 
 
