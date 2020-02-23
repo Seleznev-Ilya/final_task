@@ -1,7 +1,22 @@
 /*mobile 375px => tablet 768px => desktop 1024px*/
 @import "header.css";
 @import "footer.css";
-
+.gitHub_Only{
+    margin: 40vh auto 0;
+    text-align: center;
+}
+@font-face {
+    font-family:"Roboto-regular";
+    src: url('../fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family:"OpenSans-Regular";
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 .container {
     max-width: 1200px;
     padding: 0 20px;
@@ -12,7 +27,7 @@
 p {
     letter-spacing: 0px;
     color: #000000;
-    font-family: "Roboto";
+    font-family: "Roboto-regular";
     font-weight: 400;
 }
 
@@ -35,7 +50,7 @@ a {
 .text_style_comm {
     margin: 0;
     color: #000000;
-    font-family: "Open Sans";
+    font-family: "OpenSans-Regular";
     font-weight: 700;
     text-align: center;
 }

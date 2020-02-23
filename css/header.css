@@ -26,7 +26,7 @@
     margin: 30px 0 15px;
     letter-spacing: 1px;
     color: #000000;
-    font-family: "Open Sans";
+    font-family: "OpenSans-Regular";
     font-weight: 700;
     cursor: pointer;
 }
@@ -39,7 +39,7 @@
     font-size: 12px;
     letter-spacing: 0px;
     color: #000000;
-    font-family: "Roboto";
+    font-family:"Roboto-regular";
     font-weight: 400;
 }
 
@@ -67,7 +67,7 @@
     font-size: 13px;
     letter-spacing: 0px;
     color: #000000;
-    font-family: "Open Sans";
+    font-family: "OpenSans-Regular";
     font-weight: 700;
 }
 
