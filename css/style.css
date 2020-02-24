@@ -56,9 +56,11 @@ hr{
 .container {
     max-width: 1200px;
     padding: 0 20px;
-    min-width: 375px;
+    min-width: 335px;
     margin: 0 auto;
+    overflow: hidden;
 }
+
 
 a {
     text-decoration: none;
