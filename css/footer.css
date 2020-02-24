@@ -1,4 +1,13 @@
-
+hr{
+    color: #e5e5e5;
+    background-color:#e5e5e5;
+    border:1px solid;
+    max-width: 1300px;
+    height:1px;
+}
+main{
+    min-height: 77vh;
+}
 .footer__item{
     display: flex;
     flex-direction: column;
@@ -8,15 +17,13 @@
 .footer__wrapper1{
     display: flex;
     width: 100%;
-    background-color: yellowgreen;
-    border: 1px solid grey;
 }
 .footer__wrapper2{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color: yellowgreen;
-    border: 1px solid grey;
+    vertical-align: center;
+    align-items: center;
 }
 .footer__block1{
     width: 50%;
@@ -24,7 +31,9 @@
     flex-direction: row;
     margin: 5px;
     padding: 5px;
-    background-color: green;
+ }
+.footer__box1 ul li, .footer__box2 ul li{
+    list-style: none;
 }
 .footer__box1 p, .footer__box2 p{
     font-size: 16px;
@@ -48,13 +57,10 @@
     flex-direction: column;
     margin: 5px;
     padding: 5px;
-    background-color: goldenrod;
 
 }
 .footer__box1, .footer__box2{
     width: 50%;
-    background-color: lightblue;
-    border: 1px solid grey;
     margin: 5px;
     padding: 5px;
 }
@@ -64,10 +70,12 @@
 }
 .footer__box3, .footer__box4{
     width: 50%;
-    background-color: lightblue;
-    border: 1px solid grey;
     margin: 5px;
     padding: 5px;
+}
+.footer__box6 img:nth-child(1){
+    display: inline-block;
+    margin-right: 25px;
 }
 .footer__box3 p:nth-child(1), .footer__box4 p:nth-child(1){
     font-size: 16px;
@@ -86,7 +94,6 @@
 
 }
 .footer__box4 p:nth-child(2){
-
     font-size: 14px;
     letter-spacing: 0px;
     line-height: 24px;
@@ -111,10 +118,49 @@
     font-family: "Times New Roman";
     font-style: italic;
 }
+
+.footer__box7{
+    width: 33%;
+}
+.footer__box7 p{
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.footer__box8{
+    width: 33%;
+}
+.footer__box8 p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-align: center;
+}
+.footer__box8 span{
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: center;
+}
+.footer__box9 p{
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: right;
+}
 .footer__box9{
     display: flex;
+    width: 33%;
+    justify-content: space-between;
 }
-
 
 
 @media (min-width: 1024px) {
