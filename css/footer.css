@@ -1,0 +1,129 @@
+
+.footer__item{
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+}
+.footer__wrapper1{
+    display: flex;
+    width: 100%;
+    background-color: yellowgreen;
+    border: 1px solid grey;
+}
+.footer__wrapper2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: yellowgreen;
+    border: 1px solid grey;
+}
+.footer__block1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+    background-color: green;
+}
+.footer__box1 p, .footer__box2 p{
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+.footer__box1 a, .footer__box2 a{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.footer__block2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    background-color: goldenrod;
+
+}
+.footer__box1, .footer__box2{
+    width: 50%;
+    background-color: lightblue;
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 5px;
+}
+.footer__deepWrapper{
+    display: flex;
+    flex-direction: row;
+}
+.footer__box3, .footer__box4{
+    width: 50%;
+    background-color: lightblue;
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 5px;
+}
+.footer__box3 p:nth-child(1), .footer__box4 p:nth-child(1){
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+.footer__box3 p:nth-child(2){
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 400;
+
+}
+.footer__box4 p:nth-child(2){
+
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.footer__box3 p:nth-child(2) span{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.footer__box5 {
+    width: 302px;
+    height: 119px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+.footer__box9{
+    display: flex;
+}
+
+
+
+@media (min-width: 1024px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+@media (max-width: 768px) {
+
+}
