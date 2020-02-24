@@ -6,7 +6,16 @@
     margin: 40vh auto 0;
     text-align: center;
 }
-
+hr{
+    background-color: #e5e5e5;
+    border: 0;
+    border-bottom:1px solid #e5e5e5;
+    border-left:40px solid rgba(238, 238, 238, .1) ;
+    border-right:40px solid rgba(238, 238, 238, .1);
+    max-width: 1300px;
+    height:1px;
+    margin: 0 auto;
+}
 
 @font-face {
     font-family: 'Roboto';
