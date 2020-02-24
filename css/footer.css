@@ -243,18 +243,15 @@ main {
     }
 
     .footer__block1 {
-        padding: 0 20px 0 0;
+        padding: 20px 20px 20px 0;
     }
 
     .footer__block2 {
-        padding: 0;
+        padding: 20px 0 20px 20px;
     }
 
     .footer__box9 {
         justify-content: space-between;
-    }
-    .footer__box9 p{
-        margin-left: 5px;
     }
 
     .footer__box9-center p, .footer__box9-right p {
